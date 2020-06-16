@@ -4,7 +4,8 @@ const { override, fixBabelImports } = require('customize-cra');
 
 const rewiredMap = () => config => {
     // config为所有的webpack配置
-    config.output.publicPath="/e-ui"
+    config.output.publicPath="/e-ui/"
+    console.log(config)
     return config
 }
 
