@@ -12,7 +12,8 @@
     "lint:fix": "eslint --fix --ext .js src component",
     "lint-style": "stylelint './src/**/*.less ./component/**/*.less' --fix",
     "lint-style-win": "stylelint ./src/**/*.less ./component/**/*.less  --fix",
-    "doc": "npm run build && http-server ./dist/ -p 8888 -o"
+    "doc": "npm run build && http-server ./dist/ -p 8888 -o",
+    "publish-doc": "scripts/publish-doc.cmd"
   },
   "repository": {
     "type": "git",
